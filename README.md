@@ -1,2 +1,2 @@
-# Jornada1_TurmaJ_tarde
-Grupo de estudos Formadores em Ação
+# TrilhaprogEM_2023
+Trabalhos desenvolvidos no decorrer de 2023.
