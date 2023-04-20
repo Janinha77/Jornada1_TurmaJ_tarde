@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
 .cabeçalho {
     background-color: #eb68d1;
     color: black;
@@ -24,16 +32,29 @@
 .café-título{
     padding: 24px 0px;
 }
-*{
-    padding: 0;
-    margin: 0;
-}
-.body {
-    font-family: sans-serif;
+.café-imagem {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-80%, -80%);
+
 }
 .Receita-imagem {
     width: 120px;
+    color: rgb(20, 20, 20);
+    padding: 0px;
 }
 .Receita-div {
-    text-align: center;
+    text-align: left;
+    background-image: linear-gradient(#da99cd,#eb68d1);
+    color: rgb(14, 13, 13);
+    font-size: 21px;
+    margin-right: auto;
+    padding: 20px 100px
 }
+  
+
+
+
