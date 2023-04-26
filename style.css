@@ -5,55 +5,72 @@
 body {
     font-family: sans-serif;
 }
-
-.cabeçalho {
-    background-color: #eb68d1;
+.cabecalho{
+    background-color: #f388de;
     color: black;
-    padding: 0px 0px;
+    padding:0px 0px;
     font-size: 20px;
     justify-content: space-around;
     display: flex;
-    }
-.cabeçalho-imagem { 
-    width: 400px;
-    height: 400px;
 }
-.cabeçalho-lista-item {
+.cabecalho-imagem { 
+    width: 250px;
+    height: 250px;
+}
+.cabecalho-lista-item {
     display: inline-block;
     padding: 24px;
     margin: 24px;
 }
-.café {
-    background-image: linear-gradient(#eb68d1,#da99cd);
-    color: white;
+.cafe {
+    background-image: linear-gradient(#f684df,#f7b1e9);
+    color: rgb(39, 38, 38);
     font-size: 21px;
     padding: 20px 100px;
 }
-.café-título{
+.cafe-titulo{
     padding: 24px 0px;
 }
-.café-imagem {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: 90%;
-    left: 90%;
-    transform: translate(-80%, -80%);
-
-}
-.Receita-imagem {
+.Receita-foto{
     width: 120px;
     color: rgb(20, 20, 20);
     padding: 0px;
 }
 .Receita-div {
-    text-align: left;
-    background-image: linear-gradient(#da99cd,#eb68d1);
+    text-align: center;
+    background-image: #d997c3;
     color: rgb(14, 13, 13);
     font-size: 21px;
     margin-right: auto;
-    padding: 20px 100px
+    padding: 50px 50px
 }
+.Receita-titulo-secao{
+    text-align: center;
+    background:#f39dd6;
+    padding: 40px;
+
+}
+.Receita-todos{
+    display: grid;
+    grid-template-columns: 20% 20%  20%  20% 20%;
+    background: #f7a7df;
+    padding: 0px;
+}
+.Receita-legenda{
+    padding: 20px;
+    text-align: center;
+}
+
+.Rodape-imagem{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}        
+.Rodape{
+    background-color: rgb(238, 128, 203);
+    color: #161212;
+    text-align: center;
+   }
   
 
 
